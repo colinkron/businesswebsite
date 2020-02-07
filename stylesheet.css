@@ -1,19 +1,6 @@
+/* colorz abc9f7 eba437 ffffff #000 */
 
-h1 {
-  font-family: aktiv-grotesk, sans-serif;
-  color: #000000;
-  font-size: 200%;
-  line-height: 40px;
-  font-weight: 300;
-  /*letter-spacing: 1px;*/
-}
 
-/* Navigation Bar */
-navigation-bar {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #ffffff;
-}
 /* Navigation Menu */
 navigation-menu {
   display: block;
@@ -44,29 +31,193 @@ content:active {
 }
 
 /* Moves nav menu to the right */
-right-nav {
+nav {
   float: right;
+  margin:auto;
+}
+
+/* nav bar styling */
+nav ul {
+  list-style: none;
+  padding-top: 10px;
+  margin:auto;
+
+  /* margin-top: 40px; */
+}
+
+/* nav bar spacing */
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 25px;
   position: relative;
 }
 
-/* for the brand name */
-title-text {
-  margin-bottom: 0px;
-  font-family: aktiv-grotesk, sans-serif;
+
+/* nav bar font */
+nav a {
+  font-family: avenir, sans-serif;
   color: #000000;
-  font-size: 200%;
-  line-height: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* color when u hover over nav bar */
+nav a:hover {
+  color: #eba437;
+}
+
+
+nav a:before {
+
+}
+
+header {
+  }
+
+/* clears the space after the sides of each header! allows them to be on same
+   line/box space */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*
+.logo-pic {
+  height: 25px;
+  float: right;
+  margin-top: 3px;
+  margin-left: 3px;
+
+  width: auto;
+}
+*/
+
+.body-text {
+  font-family: avenir, sans-serif;
+  color: #000000;
+  padding-top: 50;
+  padding-bottom: 50;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 200;
+  text-align: left;
+}
+
+.header-1 {
+  font-family: avenir, sans-serif;
+  color: #000000;
+  padding-bottom: 50;
+  font-size: 50px;
+  line-height: 40px;
+  font-weight: 200;
+
+}
+.header-2 {
+
+  font-family: avenir, sans-serif;
+  color: #000000;
+  padding-top: 50;
+  padding-bottom: 50;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.header-3 {
+  font-family: avenir, sans-serif;
+  color: #C0C0C0;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 180px;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+.header-4 {
+  font-family: avenir, sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 180px;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+.footer {
+  background-color: #08234e;
+  height: 200px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.footer:after {
+  content: "";
+  display:table;
+  clear:both;
+}
+
+.footer a {
+  font-family: avenir, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* color when u hover over nav bar */
+.footer a:hover {
+  color: #eba437;
+}
+
+
+
+/* for the brand name */
+.logo {
+  font-family: avenir, sans-serif;
+  /*margin-top: 50px;*/
+  color: #000000;
+  font-size: 25px;
   font-weight: 800;
-  letter-spacing: 2px;
+  float: left;
+  line-height: 100%;
+}
+
+.logo:hover {
+  color: #377eeb;
+
 }
 /* first container, holds the navigation */
-container-1 {
-  padding-top: 10px;
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  }
+
+.first-page-photo {
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
 }
 
 /* not sure if i need this */
 div {
   display: block;
-  margin: 50px;
   overflow:hidden;
 }

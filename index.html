@@ -4,16 +4,15 @@
   <title> Blue Heaven Kayaks </title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <style>
-    section-1 {
-    background-color: #ffffff;
-     position:absolute;
-     width:100%;
-     height:100%
+    body {
+      font-family: avenir, sans-serif;
     }
-    w-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 940px;
+    mark {
+      background-color: #377eeb;
+    }
+
+    * {
+      box-sizing: border-box;
     }
   </style>
 </head>
@@ -24,56 +23,83 @@
 
 
 <!-- top-most div class...inside of it is the nav! -->
-
-  <div class="navigation-bar nav">
-    <div class= "container-1">
+  <header>
+    <div class= "container">
       <a href = "https://colinkron.github.io/businesswebsite/">
-        <h1 class = "title-text">
+        <h1 class = "logo">
           BLUE HEAVEN
+        <!--  <img src= "logo.jpg" alt "logo" class="logo-pic"> -->
           <br>
           KAYAKS
         </h1>
       </a>
-    <nav role="navigation" class="right-nav navigation-menu ">
-      <center href="file:///Users/colinkronholm/Desktop/COMP20/services.html"
-      class="nav-link right-nav"
-      style ="max-width: 950px;"> Services </a>
 
-      <center href="file:///Users/colinkronholm/Desktop/COMP20/about.html"
-      class="nav-link right-nav"
-      style ="max-width: 950px;"> About </a>
 
-      <center href="file:///Users/colinkronholm/Desktop/COMP20/contact"
-      class="nav-link right-nav"
-      style ="max-width: 950px;"> Contact </a>
-    </nav>
+      <nav>
+        <ul>
+          <li><a href="file:///Users/colinkronholm/Desktop/COMP20/services.html">
+            Services</a></li>
+          <li><a href="file:///Users/colinkronholm/Desktop/COMP20/about.html">
+            About</a></li>
+          <li><a href="file:///Users/colinkronholm/Desktop/COMP20/contact.html">
+            Contact Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
 
     <!-- nav menu ... Need to add nav-link -->
-
-    <div class="hamburger-menu nav-button">
-
-    </div>
-    </div>
-  </div>
-</div>
-
-<div class="section-1">
+<div class="container">
   <center>
-    <img src="mysticriver.jpg" alt="Mystic River">
-    <h1>
-      Welcome to Blue Heaven Kayaks
+    <h2 class="header-2">
+      <em>
+      Hi there,
+      </em>
       <br>
-      Mystic, CT
+      Welcome to
+      <mark style="color: #ffffff;">
+      Blue Heaven Kayak and Paddleboard Rentals&nbsp </mark>
       <br>
-    </h1>
+      <mark style="color: #ffffff; background-color: #eba437;">
+      Mystic, Connecticut&nbsp
+      </mark>
+      <br>
+    </h2>
   </center>
-
   </div>
 
-<!-- need to make another div that is the like header vibe! -->
+  <div class ="first-page-photo">
+    <center>
+    <img src="mysticriver.jpg" alt="Mystic River">
+  </center>
+  </div>
+
+  <div class="footer">
+    <div class ="column">
+      <h2 class ="header-3">
+        Facebook
+      </h2>
+      <h2 class = "header-4">
+      <a href="https://www.facebook.com/blueheavenkayak/"> @BlueHeavenKayak
+      </a>
+      </h2>
+    </div>
+
+    <div class= "column">
+      <h2 class ="header-3">
+        Contact us!
+      </h2>
+      <h2 class = "header-4">
+      (860)-123-4567
+      blueheavenkayak@gmail.com
+    </h2>
+    </div>
 
 
-<!-- need to make another div for the content/body! -->
+  </div>
 
   </body>
 
