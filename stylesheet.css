@@ -205,7 +205,8 @@ header::after {
 .first-page-photo {
   margin-right: auto;
   margin-left: auto;
-  width: 95%;
+  width:1000px; /* you can use % */
+  height: auto;
   overflow:hidden;
 }
 
