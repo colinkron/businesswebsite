@@ -68,14 +68,6 @@ nav a:hover {
   color: #eba437;
 }
 
-
-nav a:before {
-
-}
-
-header {
-  }
-
 /* clears the space after the sides of each header! allows them to be on same
    line/box space */
 header::after {
